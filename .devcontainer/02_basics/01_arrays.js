@@ -31,6 +31,8 @@ const myArray = [0,1,2,3,4,5,6,7,"ashu","pandey"]
 // console.log(sliceArray)
 // console.log(myArray)
 
+console.log(Object.keys(myArray))
+
 const spliceArray = myArray.splice(1,4)
 console.log(spliceArray)
 console.log(myArray)
