@@ -20,3 +20,23 @@ coding.forEach(printMe)
 coding.forEach((item,index,arr)=>{
    console.log(item,index,arr)
 })
+
+// forEach on Objects inside array
+const myCoding = [
+    {
+        langName:"Javascript",
+        langFileName:"js"
+    },
+    {
+        langName:"Python",
+        langFileName:"py"
+    },
+    {
+        langName:"Java",
+        langFileName:"java"
+    }
+]
+
+myCoding.forEach((item)=>{
+  console.log(`${item.langFileName} full form is ${item.langName}`)
+})
