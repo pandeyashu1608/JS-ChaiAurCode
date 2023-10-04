@@ -5,3 +5,6 @@ studentFather = "SK Pandey"
 let studentAddress
 
 console.table([studentName,studentAge,sudentId,studentFather,studentAddress])
+
+
+

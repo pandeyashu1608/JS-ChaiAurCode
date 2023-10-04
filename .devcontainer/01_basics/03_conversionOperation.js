@@ -14,5 +14,17 @@ let isLoggedIn = 0            //boolean conversion
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn)
 
+// Conversion Examples
+
+// 1). String to Number
+
+let myName ="865867"
+let strToNum = Number(myName)
+console.log(strToNum)
 
 
+// 2). Number to string
+
+const num = 321312;
+let numToStr = num.toString();
+console.log(numToStr)

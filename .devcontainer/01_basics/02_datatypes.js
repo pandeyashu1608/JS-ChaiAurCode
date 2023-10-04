@@ -12,5 +12,6 @@ console.log(typeof undef)
 console.log(typeof tru)
 console.log(typeof bigint)
 
-//object
+//Datatypes :- Number, Booleans, Arrays, Objects, Null, Undefined, BigInt
+
 
